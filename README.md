@@ -1,2 +1,2 @@
-# LabWork02
-https://augustin5094.github.io/LabWork02/
+[# LabWork02](
+https://augustin5094.github.io/LabWork02/)
