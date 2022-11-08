@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+}
+
+header,
+section,
+footer,
+nav,
+article,
+figure,
+figcaption {
+  display: block;
+}
+
+body {
+  color: #666666;
+  background-color: #ffffff;
+  background-image: url("../assets/images/dark-wood2.jpg");
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0px;
+}
+
+div.container {
+  width: 950px;
+  margin: 5px auto;
+  background-color: #e6f9ff;
+}
+
+.container {
+  background-color: #8bb7e1;
+}
+
+.content {
+  line-height: 1.4em;
+  padding: 10px;
+}
+
+header,
+nav,
+footer {
+  background-color: #0070cc;
+  color: #ffffff;
+}
+
+nav ul {
+  margin: 0;
+  padding: 5px;
+}
+
+nav li {
+  display: inline;
+  margin-right: 40px;
+  text-transform: uppercase;
+}
+
+nav li a:link,
+nav li a:visited {
+  color: #ffffff;
+}
+
+nav li a:hover,
+nav li a:active,
+nav li a.current {
+  color: #000000;
+}
+
+a {
+  color: #de6581;
+  text-decoration: none;
+}
+
+h1,
+h2,
+h3 {
+  margin: 10px;
+  text-transform: uppercase;
+  color: rgb(32, 139, 0);
+}
+
+.img-centre {
+  display: block;
+  margin: 5px auto;
+  border: 2px solid black;
+  padding: 2px;
+}
+
+audio,
+video {
+  display: block;
+  margin: 10px auto;
+}
+
+table {
+  width: 800px;
+  margin: 10px auto;
+  border-spacing: 10px;
+  border-collapse: collapse;
+}
+
+table td,
+table th {
+  border: 1px groove black;
+  padding: 2px 5px;
+  background-color: #b7eff4;
+}
+
+table th,
+tfoot td {
+  text-transform: uppercase;
+  background-color: #56acb5;
+  color: #b7dcf4;
+}
+
+dt {
+  font-weight: bold;
+}
+
+td {
+  empty-cells: hide;
+}
+
+footer {
+  font-size: 80%;
+  text-align: center;
+  padding: 1px 0;
+}
+
+iframe {
+  display: block;
+  margin: 10px auto;
+}
+
+fieldset {
+  width: 500px;
+  margin: 20px auto;
+  border: 1px solid #5692b5;
+  background-color: #b7dbf4;
+}
+
+legend {
+  font-style: italic;
+  color: #b7f4ee;
+  margin: 0 10px;
+  padding: 0 5px;
+  background-color: #56b5b0;
+  border-radius: 10px;
+}
+
+input[type="submit"] {
+  border: 1px solid #b7c3f4;
+  padding: 5px;
+  background-color: #5667b5;
+  color: #ffffff;
+}
+
+input[type="submit"]:hover {
+  background-color: #113072;
+  color: #ffffff;
+  cursor: pointer;
+}
